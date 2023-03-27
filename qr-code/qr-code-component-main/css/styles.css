@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.containers{
+    border:1px hsl(0, 0%, 100%) solid;
+    height:clamp(50vh, 68vh,25em) ;
+    width: clamp(15em,18vw,20vw);
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 
+    0px 5px 10px 0px hsl(220deg 60% 50% / 0.3);
+    display: grid;
+    justify-content: center;
+}
+
+img{
+    width:90%;
+    margin-top:1vw;
+    border-radius: 15px;
+}
+h3{
+    overflow: hidden;
+}
+.headertext{
+    font-weight: bold;
+    font-size: 15px;
+}
+.bodytext{
+    font-size:12px;
+    color: gray;
+}
