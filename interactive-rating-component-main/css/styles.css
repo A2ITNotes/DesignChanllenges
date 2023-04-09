@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+    height: 100vh;
+    width: 100vw;
+    background-color:hsl(216, 12%, 8%);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.main{
+    width:clamp(100px,370px,400px) ;
+    height:350px;
+    background-color: hsl(213, 19%, 18%);
+}
+.star-cont{
+    background-color: hsl(213, 19%, 24%);
+    height: 35px;
+    width:35px;
+    border-radius: 50%;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    position:relative;
+    top:1%;
+    left:5%;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    color:rgb(182, 175, 175);
+    font-size: 15px;
+
+}
+.mybutton:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+    transition: 300ms;
+}
+.circle::selection{
+    background-color:  hsl(25, 97%, 53%);
+}
+.mybutton{
+    background-color:  hsl(25, 97%, 53%);
+    color:white;
+}
+.circle:hover{
+    background-color: hsl(215, 13%, 33%);
+    cursor: pointer;
+    transition: 300ms;
+    color:white;
+}
+.circle{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    color:hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 24%);
+}
+#thankimg{
+width: auto;
+height: 100px;
+}
+#selectcount{
+    color:hsl(25, 97%, 53%);
+    background-color:hsl(213, 19%, 24%) ;
+    border-radius: 45%;
+}

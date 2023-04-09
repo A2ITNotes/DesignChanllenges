@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Rating</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <div class="main rounded-5 ">
+        <div class="row  m-3 mt-4 justify-content-center">
+            <img src="images/illustration-thank-you.svg" alt="thank-youimage" id="thankimg"/>
+        </div>
+
+        <div class="row  mx-3 p-1 justify-content-center">
+            <div class=" w-75">
+            
+                <p class="p-1 fw-bold rounded-4 text-center m-0" id="selectcount">You selected x out of 5</p>
+            </div>
+        </div>
+
+        <div class="row  m-3 justify-content-center " >
+            <h1 class="text-white text-center">Thank You!</h1>    
+        </div>
+
+        <div class="row mx-4 my-2 ">
+            <p class="text-center">We really appreciate you taking your time to give a rating, If you need ever need more support, don't hesitate to get in touch!</p>
+
+        </div>
+ </div>
+ 	<script>
+		var count = getParameterByName('count');
+		document.getElementById('selectcount').innerHTML = "You selected " + count + " out of 5";
+		function getParameterByName(name) {
+			var url = window.location.href;
+			name = name.replace(/[\[\]]/g, '\\$&');
+			var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+				results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return '';
+			return decodeURIComponent(results[2].replace(/\+/g, ' '));
+		}
+	</script>
+</body>
+</html>

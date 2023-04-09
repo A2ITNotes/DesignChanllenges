@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "753d4db32e6da370",
+    "type": "split",
+    "children": [
+      {
+        "id": "2551fde30a1a4edd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6add435f1f737050",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "design/desktop-design.jpg"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b156ea16607f2bd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae1d2dde30a8e853",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dad448f7defd4e8c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e6525701fb30d35e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e314fb8b3711c28",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2927b3df2fcbbe7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3fba980ff90aa12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15eed47ebd3ecb99",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "design/desktop-design.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6cd3171559b3c4ea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "design/desktop-design.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "326b4caaad329b06",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9e6c15ef6850f604",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "design/desktop-design.jpg"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6add435f1f737050",
+  "lastOpenFiles": [
+    "style-guide.md",
+    "design/desktop-preview.jpg",
+    "design/mobile-design.jpg",
+    "design/active-states.jpg",
+    "assets/images/favicon-32x32.png",
+    "assets/images/icon-visual.svg",
+    "assets/images/icon-verbal.svg",
+    "assets/images/icon-reaction.svg",
+    "assets/images/icon-memory.svg",
+    "design/desktop-design.jpg",
+    "css/styles.css",
+    "README.md",
+    "README-template.md"
+  ]
+}
